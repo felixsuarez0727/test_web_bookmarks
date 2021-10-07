@@ -1,8 +1,17 @@
 Installation steps:
 1. Create the virtual environment and activate it.
-2. Install the dependencies from "requirements.txt" file using command - pip install -r requirements.txt
-3. Migrate the database. 
-4. Start the server.
+2. Install the dependencies from "requirements.txt":
+```
+pip install -r requirements.txt
+```
+4. Migrate the database.
+```
+python3 manage.py migrate
+```
+6. Start the server.
+```
+python3 manage.py runserver
+```
 
 Now, you should be able to access the endpoints. 
 Base url: localhost:8000/bookmark
