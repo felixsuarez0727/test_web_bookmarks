@@ -1,5 +1,9 @@
-Installation steps:
+# Installation steps:
 1. Create the virtual environment and activate it.
+```
+virtualenv mypython
+source mypython/bin/activate
+```
 2. Install the dependencies from "requirements.txt":
 ```
 pip install -r requirements.txt
@@ -10,7 +14,7 @@ python3 manage.py migrate
 ```
 6. Start the server.
 ```
-python3 manage.py runserver
+python3 manage.py runserver 0.0.0.0:8000
 ```
 
 Now, you should be able to access the endpoints. 
