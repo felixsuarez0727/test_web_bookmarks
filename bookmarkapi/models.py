@@ -6,4 +6,5 @@ from django.db import models
 # Create your models here.
 class Bookmark(models.Model): #Inherit the class from models
     title = models.CharField(max_length=50)
-    text = models.CharField(max_length=200)
+    url = models.CharField(max_length=200)
+    created_at = models.CharField(max_length=50)
